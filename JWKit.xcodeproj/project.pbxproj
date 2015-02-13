@@ -46,7 +46,7 @@
 		5BB0CC471A8E771000F3CE04 /* DeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC261A8E65D700F3CE04 /* DeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB0CC481A8E771000F3CE04 /* JWKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC001A8E584800F3CE04 /* JWKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB0CC491A8E771000F3CE04 /* JWMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC2C1A8E6A3D00F3CE04 /* JWMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BB0CC4A1A8E771000F3CE04 /* Node.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC3D1A8E70D300F3CE04 /* Node.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BB0CC4A1A8E771000F3CE04 /* Node.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC3D1A8E70D300F3CE04 /* Node.h */; };
 		5BB0CC4B1A8E771000F3CE04 /* NSMutableArray+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC2F1A8E6B7100F3CE04 /* NSMutableArray+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB0CC4C1A8E771000F3CE04 /* Routes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC321A8E6BE100F3CE04 /* Routes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB0CC4D1A8E771000F3CE04 /* StringHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC351A8E6EA600F3CE04 /* StringHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -224,13 +224,13 @@
 				5BB0CC471A8E771000F3CE04 /* DeviceInfo.h in Headers */,
 				5BB0CC481A8E771000F3CE04 /* JWKit.h in Headers */,
 				5BB0CC491A8E771000F3CE04 /* JWMacros.h in Headers */,
-				5BB0CC4A1A8E771000F3CE04 /* Node.h in Headers */,
 				5BB0CC4B1A8E771000F3CE04 /* NSMutableArray+Helper.h in Headers */,
 				5BB0CC4C1A8E771000F3CE04 /* Routes.h in Headers */,
 				5BB0CC4D1A8E771000F3CE04 /* StringHelper.h in Headers */,
 				5BB0CC4E1A8E771000F3CE04 /* Validator.h in Headers */,
 				5BB0CC4F1A8E773300F3CE04 /* Constants.h in Headers */,
 				5BB0CC501A8E773300F3CE04 /* UIDevice-Hardware.h in Headers */,
+				5BB0CC4A1A8E771000F3CE04 /* Node.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
