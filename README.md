@@ -13,8 +13,10 @@ steps:
 
 This library is already universally adapted for all architectures, including applications to run in the iOS Simulator.
 
-To make it easier, you can create a framework. Compile the project with the target 'Framework' selected.
-As an addendum, a copy of the framework will be created on your desktop, so you can already copy it and paste it in
+To make it easier, you can create a framework: 
+
+- Compile the project with the target 'Framework' selected.
+- As an addendum, a copy of the framework will be created on your desktop, so you can already copy it and paste it in
 your project.
 
 ## Classes in the kit
