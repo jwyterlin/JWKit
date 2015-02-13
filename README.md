@@ -7,6 +7,7 @@ which usually occur when we are developing an application for the iOS platform.
 If you want to only use those classes using these resources come from a static library, just do the following
 steps:
 
+- Clean the project with 'Cmd + Option + Shift + K', and select 'Clean'.
 - Build with the target JWKit selected.
 - Clicking the right button on libJWKit.a that is in the 'Products' folder and select 'Show in Finder'.
 - To implement the library in your project, just copy the 'include' folder and the libJWKit.a file to your project.
