@@ -160,7 +160,14 @@
     if ([platform hasPrefix:@"iPhone2"])            return UIDevice3GSiPhone;
     if ([platform hasPrefix:@"iPhone3"])            return UIDevice4iPhone;
     if ([platform hasPrefix:@"iPhone4"])            return UIDevice4SiPhone;
-    if ([platform hasPrefix:@"iPhone5"])            return UIDevice5iPhone;
+    if ([platform isEqualToString:@"iPhone5,1"])    return UIDevice5iPhone;
+    if ([platform isEqualToString:@"iPhone5,2"])    return UIDevice5iPhone;
+    if ([platform isEqualToString:@"iPhone5,3"])    return UIDevice5CiPhone;
+    if ([platform isEqualToString:@"iPhone5,4"])    return UIDevice5CiPhone;
+    if ([platform isEqualToString:@"iPhone6,1"])    return UIDevice5SiPhone;
+    if ([platform isEqualToString:@"iPhone6,2"])    return UIDevice5SiPhone;
+    if ([platform isEqualToString:@"iPhone7,1"])    return UIDevice6PlusiPhone;
+    if ([platform isEqualToString:@"iPhone7,2"])    return UIDevice6iPhone;
     
     // iPod
     if ([platform hasPrefix:@"iPod1"])              return UIDevice1GiPod;
@@ -169,10 +176,37 @@
     if ([platform hasPrefix:@"iPod4"])              return UIDevice4GiPod;
     
     // iPad
-    if ([platform hasPrefix:@"iPad1"])              return UIDevice1GiPad;
-    if ([platform hasPrefix:@"iPad2"])              return UIDevice2GiPad;
-    if ([platform hasPrefix:@"iPad3"])              return UIDevice3GiPad;
-    if ([platform hasPrefix:@"iPad4"])              return UIDevice4GiPad;
+    if ([platform isEqualToString:@"iPad1,1"])      return UIDevice1GiPad;
+    if ([platform isEqualToString:@"iPad2,1"])      return UIDevice2GiPad;
+    if ([platform isEqualToString:@"iPad2,2"])      return UIDevice2GiPad;
+    if ([platform isEqualToString:@"iPad2,3"])      return UIDevice2GiPad;
+    if ([platform isEqualToString:@"iPad2,4"])      return UIDevice2GiPad;
+    if ([platform isEqualToString:@"iPad3,1"])      return UIDevice3GiPad;
+    if ([platform isEqualToString:@"iPad3,2"])      return UIDevice3GiPad;
+    if ([platform isEqualToString:@"iPad3,3"])      return UIDevice3GiPad;
+    if ([platform isEqualToString:@"iPad3,4"])      return UIDevice4GiPad;
+    if ([platform isEqualToString:@"iPad3,5"])      return UIDevice4GiPad;
+    if ([platform isEqualToString:@"iPad3,6"])      return UIDevice4GiPad;
+    
+    // iPad Air
+    if ([platform isEqualToString:@"iPad4,1"])      return UIDevice1GiPadAir;
+    if ([platform isEqualToString:@"iPad4,2"])      return UIDevice1GiPadAir;
+    if ([platform isEqualToString:@"iPad4,3"])      return UIDevice1GiPadAir;
+    if ([platform isEqualToString:@"iPad5,1"])      return UIDevice2GiPadAir;
+    if ([platform isEqualToString:@"iPad5,2"])      return UIDevice2GiPadAir;
+    if ([platform isEqualToString:@"iPad5,3"])      return UIDevice2GiPadAir;
+    if ([platform isEqualToString:@"iPad5,4"])      return UIDevice2GiPadAir;
+    
+    // iPad Mini
+    if ([platform isEqualToString:@"iPad2,5"])      return UIDevice1GiPadMini;
+    if ([platform isEqualToString:@"iPad2,6"])      return UIDevice1GiPadMini;
+    if ([platform isEqualToString:@"iPad2,7"])      return UIDevice1GiPadMini;
+    if ([platform isEqualToString:@"iPad4,4"])      return UIDevice2GiPadMini;
+    if ([platform isEqualToString:@"iPad4,5"])      return UIDevice2GiPadMini;
+    if ([platform isEqualToString:@"iPad4,6"])      return UIDevice2GiPadMini;
+    if ([platform isEqualToString:@"iPad4,7"])      return UIDevice3GiPadMini;
+    if ([platform isEqualToString:@"iPad4,8"])      return UIDevice3GiPadMini;
+    if ([platform isEqualToString:@"iPad4,9"])      return UIDevice3GiPadMini;
     
     // Apple TV
     if ([platform hasPrefix:@"AppleTV2"])           return UIDeviceAppleTV2;
@@ -197,24 +231,42 @@
 {
     switch ([self platformType])
     {
+            // iPhone
         case UIDevice1GiPhone: return IPHONE_1G_NAMESTRING;
         case UIDevice3GiPhone: return IPHONE_3G_NAMESTRING;
         case UIDevice3GSiPhone: return IPHONE_3GS_NAMESTRING;
         case UIDevice4iPhone: return IPHONE_4_NAMESTRING;
         case UIDevice4SiPhone: return IPHONE_4S_NAMESTRING;
         case UIDevice5iPhone: return IPHONE_5_NAMESTRING;
+        case UIDevice5CiPhone: return IPHONE_5C_NAMESTRING;
+        case UIDevice5SiPhone: return IPHONE_5S_NAMESTRING;
+        case UIDevice6iPhone: return IPHONE_6_NAMESTRING;
+        case UIDevice6PlusiPhone: return IPHONE_6PLUS_NAMESTRING;
         case UIDeviceUnknowniPhone: return IPHONE_UNKNOWN_NAMESTRING;
             
+            // iPod Touch
         case UIDevice1GiPod: return IPOD_1G_NAMESTRING;
         case UIDevice2GiPod: return IPOD_2G_NAMESTRING;
         case UIDevice3GiPod: return IPOD_3G_NAMESTRING;
         case UIDevice4GiPod: return IPOD_4G_NAMESTRING;
+        case UIDevice5GiPod: return IPOD_5G_NAMESTRING;
         case UIDeviceUnknowniPod: return IPOD_UNKNOWN_NAMESTRING;
             
-        case UIDevice1GiPad : return IPAD_1G_NAMESTRING;
-        case UIDevice2GiPad : return IPAD_2G_NAMESTRING;
-        case UIDevice3GiPad : return IPAD_3G_NAMESTRING;
-        case UIDevice4GiPad : return IPAD_4G_NAMESTRING;
+            // iPad
+        case UIDevice1GiPad : return IPAD_1_NAMESTRING;
+        case UIDevice2GiPad : return IPAD_2_NAMESTRING;
+        case UIDevice3GiPad : return IPAD_3_NAMESTRING;
+        case UIDevice4GiPad : return IPAD_4_NAMESTRING;
+            
+            // iPad Air
+        case UIDevice1GiPadAir : return IPAD_AIR_1_NAMESTRING;
+        case UIDevice2GiPadAir : return IPAD_AIR_2_NAMESTRING;
+            
+            // iPad Mini
+        case UIDevice1GiPadMini : return IPAD_MINI_1_NAMESTRING;
+        case UIDevice2GiPadMini : return IPAD_MINI_2_NAMESTRING;
+        case UIDevice3GiPadMini : return IPAD_MINI_3_NAMESTRING;
+            
         case UIDeviceUnknowniPad : return IPAD_UNKNOWN_NAMESTRING;
             
         case UIDeviceAppleTV2 : return APPLETV_2G_NAMESTRING;
