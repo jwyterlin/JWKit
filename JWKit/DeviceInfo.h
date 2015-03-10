@@ -23,5 +23,6 @@
 +(CGFloat)height;
 +(CGFloat)width;
 +(BOOL)isIphone3Dot5Inches;
++(CGFloat)nativeScale;
 
 @end
