@@ -251,4 +251,18 @@
     
 }
 
+-(NSString *)stringPhoneNumberOnlyNumbers:(NSString *)rawPhoneNumber {
+    
+    NSString *onlyNumbers = [rawPhoneNumber copy];
+    
+    onlyNumbers = [onlyNumbers stringByReplacingOccurrencesOfString:@" " withString:@""];
+    onlyNumbers = [onlyNumbers stringByReplacingOccurrencesOfString:@"(" withString:@""];
+    onlyNumbers = [onlyNumbers stringByReplacingOccurrencesOfString:@")" withString:@""];
+    onlyNumbers = [onlyNumbers stringByReplacingOccurrencesOfString:@"-" withString:@""];
+    onlyNumbers = [onlyNumbers stringByReplacingOccurrencesOfString:@"+" withString:@""];
+    
+    return onlyNumbers;
+    
+}
+
 @end

@@ -22,5 +22,6 @@
 -(NSString *)stringByStrippingHTML:(NSString *)s;
 -(void)removeLastString:(NSString *)stringToRemove fromMutableString:(NSMutableString *)mutableString;
 -(NSString *)timeFormatted:(int)totalSeconds;
+-(NSString *)stringPhoneNumberOnlyNumbers:(NSString *)rawPhoneNumber;
 
 @end
