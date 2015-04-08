@@ -137,7 +137,12 @@ static BOOL isIphone5;
 }
 
 +(CGFloat)nativeScale {
-    return [UIScreen mainScreen].nativeScale;
+    
+    if ( [[UIScreen mainScreen] respondsToSelector:@selector(nativeScale)] )
+        return [UIScreen mainScreen].nativeScale;
+    
+    return 3.0;
+    
 }
 
 @end
