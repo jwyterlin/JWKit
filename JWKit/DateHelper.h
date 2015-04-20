@@ -20,5 +20,6 @@
 +(NSInteger)daysBetweenDate:(NSDate *)fromDateTime andDate:(NSDate *)toDateTime;
 +(NSDate *)decreaseOneDayInDate:(NSDate *)date;
 -(NSString *)dateTimeFormat:(NSDate *)date;
++(BOOL)thisDate:(NSDate *)date isMoreRecentThanOtherDate:(NSDate *)otherDate;
 
 @end

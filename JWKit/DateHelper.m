@@ -175,4 +175,16 @@
     
 }
 
++(BOOL)thisDate:(NSDate *)date isMoreRecentThanOtherDate:(NSDate *)otherDate {
+    
+    if ( date && ! otherDate )
+        return YES;
+    
+    if ( ! date )
+        return NO;
+    
+    return ( [date compare:otherDate] == NSOrderedDescending );
+    
+}
+
 @end
