@@ -15,5 +15,7 @@
 +(BOOL)isEmptyString:(NSString *)string;
 +(BOOL)isAllFilledStrings:(NSArray *)arrayStrings;
 +(id)safeObject:(NSArray *)array atIndex:(NSUInteger)index;
++(BOOL)validateEmail:(NSString*)email;
++(BOOL)validatePasswordLength:(NSString *)password;
 
 @end

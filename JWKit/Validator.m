@@ -76,4 +76,24 @@
     
 }
 
++(BOOL)validateEmail:(NSString*)email {
+    
+    if ( ! email )
+        return NO;
+    
+    if ( [email isEqualToString:@""] )
+        return NO;
+    
+    NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
+    
+    NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
+    
+    return [emailTest evaluateWithObject:email];
+    
+}
+
++(BOOL)validatePasswordLength:(NSString *)password {
+    return ( password.length > 4 );
+}
+
 @end
