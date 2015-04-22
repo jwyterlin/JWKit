@@ -53,6 +53,8 @@
 		5BB0CC4E1A8E771000F3CE04 /* Validator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC381A8E702400F3CE04 /* Validator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB0CC4F1A8E773300F3CE04 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC231A8E648700F3CE04 /* Constants.h */; };
 		5BB0CC501A8E773300F3CE04 /* UIDevice-Hardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC291A8E66DD00F3CE04 /* UIDevice-Hardware.h */; };
+		7BA908CF1AE7319000990493 /* Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA908CD1AE7319000990493 /* Alert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BA908D01AE7319000990493 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA908CE1AE7319000990493 /* Alert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +120,8 @@
 		5BB0CC3C1A8E70D300F3CE04 /* BinarySearchTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearchTree.m; sourceTree = "<group>"; };
 		5BB0CC3D1A8E70D300F3CE04 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		5BB0CC3E1A8E70D300F3CE04 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		7BA908CD1AE7319000990493 /* Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
+		7BA908CE1AE7319000990493 /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 		5BB0CBFF1A8E584800F3CE04 /* JWKit */ = {
 			isa = PBXGroup;
 			children = (
+				7BA908CD1AE7319000990493 /* Alert.h */,
+				7BA908CE1AE7319000990493 /* Alert.m */,
 				5BB0CC171A8E5A5500F3CE04 /* ArrayHelper.h */,
 				5BB0CC181A8E5A5500F3CE04 /* ArrayHelper.m */,
 				5BB0CC3B1A8E70D300F3CE04 /* BinarySearchTree.h */,
@@ -216,6 +222,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BA908CF1AE7319000990493 /* Alert.h in Headers */,
 				5BB0CC421A8E771000F3CE04 /* ArrayHelper.h in Headers */,
 				5BB0CC431A8E771000F3CE04 /* BinarySearchTree.h in Headers */,
 				5BB0CC441A8E771000F3CE04 /* CellHelper.h in Headers */,
@@ -365,6 +372,7 @@
 				5BB0CC371A8E6EA600F3CE04 /* StringHelper.m in Sources */,
 				5BB0CC3A1A8E702400F3CE04 /* Validator.m in Sources */,
 				5BB0CC2E1A8E6A3D00F3CE04 /* JWMacros.m in Sources */,
+				7BA908D01AE7319000990493 /* Alert.m in Sources */,
 				5BB0CC311A8E6B7100F3CE04 /* NSMutableArray+Helper.m in Sources */,
 				5BB0CC281A8E65D700F3CE04 /* DeviceInfo.m in Sources */,
 				5BB0CC1F1A8E5C7C00F3CE04 /* Database.m in Sources */,
@@ -562,6 +570,7 @@
 				5BB0CC131A8E584800F3CE04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BB0CC141A8E584800F3CE04 /* Build configuration list for PBXNativeTarget "JWKitTests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +579,7 @@
 				5BB0CC161A8E584800F3CE04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BB0CC531A8E78F900F3CE04 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +588,7 @@
 				5BB0CC551A8E78F900F3CE04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
