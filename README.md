@@ -24,6 +24,10 @@ your project.
 
 The public classes are:
 
+- Alert
+
+  A helper to simplify the use of UIAlertView.
+
 - ArrayHelper
 
   For now, has only methods that return arrays of Brazilian states.
@@ -31,6 +35,10 @@ The public classes are:
 - BinarySearchTree
 
   It is a popular implementation of the data structure, binary tree search in Objective-C.
+
+- ButtonHelper
+
+  To avoid repeat code to create corners rounded in a button.
 
 - CellHelper
 
@@ -63,6 +71,10 @@ The public classes are:
 - StringHelper
 
   Many methods to validate and manipulate NSStrings.
+
+- UIViewController+Helper
+
+  A helper to UIViewController with some useful methods.
 
 - Validator
 
