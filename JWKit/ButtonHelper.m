@@ -14,4 +14,11 @@
     button.layer.cornerRadius = 5.0;
 }
 
+-(void)roundCornerButtons:(NSArray *)buttons {
+    
+    for ( UIButton *button in buttons )
+        [self roundCornerButton:button];
+    
+}
+
 @end

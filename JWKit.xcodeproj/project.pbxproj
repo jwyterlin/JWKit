@@ -57,6 +57,8 @@
 		7BA908D01AE7319000990493 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA908CE1AE7319000990493 /* Alert.m */; };
 		7BA908D31AE732C400990493 /* ButtonHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA908D11AE732C400990493 /* ButtonHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BA908D41AE732C400990493 /* ButtonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA908D21AE732C400990493 /* ButtonHelper.m */; };
+		7BA908D71AE7341300990493 /* UIViewController+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA908D51AE7341300990493 /* UIViewController+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BA908D81AE7341300990493 /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA908D61AE7341300990493 /* UIViewController+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +128,8 @@
 		7BA908CE1AE7319000990493 /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
 		7BA908D11AE732C400990493 /* ButtonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonHelper.h; sourceTree = "<group>"; };
 		7BA908D21AE732C400990493 /* ButtonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonHelper.m; sourceTree = "<group>"; };
+		7BA908D51AE7341300990493 /* UIViewController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Helper.h"; sourceTree = "<group>"; };
+		7BA908D61AE7341300990493 /* UIViewController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +203,8 @@
 				5BB0CC361A8E6EA600F3CE04 /* StringHelper.m */,
 				5BB0CC291A8E66DD00F3CE04 /* UIDevice-Hardware.h */,
 				5BB0CC2A1A8E66DD00F3CE04 /* UIDevice-Hardware.m */,
+				7BA908D51AE7341300990493 /* UIViewController+Helper.h */,
+				7BA908D61AE7341300990493 /* UIViewController+Helper.m */,
 				5BB0CC381A8E702400F3CE04 /* Validator.h */,
 				5BB0CC391A8E702400F3CE04 /* Validator.m */,
 			);
@@ -241,6 +247,7 @@
 				5BB0CC4B1A8E771000F3CE04 /* NSMutableArray+Helper.h in Headers */,
 				5BB0CC4C1A8E771000F3CE04 /* Routes.h in Headers */,
 				5BB0CC4D1A8E771000F3CE04 /* StringHelper.h in Headers */,
+				7BA908D71AE7341300990493 /* UIViewController+Helper.h in Headers */,
 				5BB0CC4E1A8E771000F3CE04 /* Validator.h in Headers */,
 				5BB0CC4F1A8E773300F3CE04 /* Constants.h in Headers */,
 				5BB0CC501A8E773300F3CE04 /* UIDevice-Hardware.h in Headers */,
@@ -378,6 +385,7 @@
 				5BB0CC221A8E641700F3CE04 /* DateHelper.m in Sources */,
 				5BB0CC371A8E6EA600F3CE04 /* StringHelper.m in Sources */,
 				5BB0CC3A1A8E702400F3CE04 /* Validator.m in Sources */,
+				7BA908D81AE7341300990493 /* UIViewController+Helper.m in Sources */,
 				7BA908D41AE732C400990493 /* ButtonHelper.m in Sources */,
 				5BB0CC2E1A8E6A3D00F3CE04 /* JWMacros.m in Sources */,
 				7BA908D01AE7319000990493 /* Alert.m in Sources */,

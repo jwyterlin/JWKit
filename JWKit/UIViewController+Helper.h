@@ -1,5 +1,5 @@
 //
-//  ButtonHelper.h
+//  UIViewController+Helper.h
 //  JWKit
 //
 //  Created by Jhonathan Wyterlin on 21/04/15.
@@ -9,9 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface ButtonHelper : NSObject
+@interface UIViewController (Helper)
 
--(void)roundCornerButton:(UIButton *)button;
--(void)roundCornerButtons:(NSArray *)buttons;
+-(void)dismiss;
+-(BOOL)isCalledModally;
+-(void)registerObserversForKeyboard;
+-(void)dismissKeyboard;
 
 @end
