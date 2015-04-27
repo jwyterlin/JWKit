@@ -23,5 +23,6 @@
 -(void)removeLastString:(NSString *)stringToRemove fromMutableString:(NSMutableString *)mutableString;
 -(NSString *)timeFormatted:(int)totalSeconds;
 -(NSString *)stringPhoneNumberOnlyNumbers:(NSString *)rawPhoneNumber;
+-(NSAttributedString *)attributedStringStrikedInString:(NSString *)string;
 
 @end

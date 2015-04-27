@@ -265,4 +265,13 @@
     
 }
 
+-(NSAttributedString *)attributedStringStrikedInString:(NSString *)string {
+    
+    NSMutableAttributedString *attributeString = [[NSMutableAttributedString alloc] initWithString:(string ? string : @"")];
+    [attributeString addAttribute:NSStrikethroughStyleAttributeName value:@1 range:NSMakeRange(0, [attributeString length])];
+    
+    return attributeString;
+    
+}
+
 @end
