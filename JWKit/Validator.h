@@ -10,6 +10,15 @@
 
 @interface Validator : NSObject
 
+typedef enum {
+    ResultValidationEverythingOK = 0,
+    ResultValidationFieldsListNull,
+    ResultValidationFieldsListEmpty,
+    ResultValidationAllFieldsRequired,
+    ResultValidationInvalidEmail,
+    ResultValidationPasswordHasNoMinimumLengthRequired
+} ResultValidation;
+
 +(BOOL)validateObject:(id)object;
 +(BOOL)validateObjects:(NSArray *)objects;
 +(BOOL)isEmptyString:(NSString *)string;
@@ -17,5 +26,6 @@
 +(id)safeObject:(NSArray *)array atIndex:(NSUInteger)index;
 +(BOOL)validateEmail:(NSString*)email;
 +(BOOL)validatePasswordLength:(NSString *)password;
++(ResultValidation)validateFields:(NSArray *)fields;
 
 @end

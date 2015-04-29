@@ -53,6 +53,8 @@
 		5BB0CC4E1A8E771000F3CE04 /* Validator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC381A8E702400F3CE04 /* Validator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB0CC4F1A8E773300F3CE04 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC231A8E648700F3CE04 /* Constants.h */; };
 		5BB0CC501A8E773300F3CE04 /* UIDevice-Hardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC291A8E66DD00F3CE04 /* UIDevice-Hardware.h */; };
+		7B7DD10F1AF07B6D00516BE9 /* FieldToValidate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7DD10D1AF07B6D00516BE9 /* FieldToValidate.h */; };
+		7B7DD1101AF07B6D00516BE9 /* FieldToValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7DD10E1AF07B6D00516BE9 /* FieldToValidate.m */; };
 		7BA908CF1AE7319000990493 /* Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA908CD1AE7319000990493 /* Alert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BA908D01AE7319000990493 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA908CE1AE7319000990493 /* Alert.m */; };
 		7BA908D31AE732C400990493 /* ButtonHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA908D11AE732C400990493 /* ButtonHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -124,6 +126,8 @@
 		5BB0CC3C1A8E70D300F3CE04 /* BinarySearchTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearchTree.m; sourceTree = "<group>"; };
 		5BB0CC3D1A8E70D300F3CE04 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		5BB0CC3E1A8E70D300F3CE04 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		7B7DD10D1AF07B6D00516BE9 /* FieldToValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldToValidate.h; sourceTree = "<group>"; };
+		7B7DD10E1AF07B6D00516BE9 /* FieldToValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldToValidate.m; sourceTree = "<group>"; };
 		7BA908CD1AE7319000990493 /* Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
 		7BA908CE1AE7319000990493 /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
 		7BA908D11AE732C400990493 /* ButtonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonHelper.h; sourceTree = "<group>"; };
@@ -207,6 +211,8 @@
 				7BA908D61AE7341300990493 /* UIViewController+Helper.m */,
 				5BB0CC381A8E702400F3CE04 /* Validator.h */,
 				5BB0CC391A8E702400F3CE04 /* Validator.m */,
+				7B7DD10D1AF07B6D00516BE9 /* FieldToValidate.h */,
+				7B7DD10E1AF07B6D00516BE9 /* FieldToValidate.m */,
 			);
 			path = JWKit;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 				5BB0CC431A8E771000F3CE04 /* BinarySearchTree.h in Headers */,
 				7BA908D31AE732C400990493 /* ButtonHelper.h in Headers */,
 				5BB0CC441A8E771000F3CE04 /* CellHelper.h in Headers */,
+				7B7DD10F1AF07B6D00516BE9 /* FieldToValidate.h in Headers */,
 				5BB0CC451A8E771000F3CE04 /* Database.h in Headers */,
 				5BB0CC461A8E771000F3CE04 /* DateHelper.h in Headers */,
 				5BB0CC471A8E771000F3CE04 /* DeviceInfo.h in Headers */,
@@ -391,6 +398,7 @@
 				7BA908D01AE7319000990493 /* Alert.m in Sources */,
 				5BB0CC311A8E6B7100F3CE04 /* NSMutableArray+Helper.m in Sources */,
 				5BB0CC281A8E65D700F3CE04 /* DeviceInfo.m in Sources */,
+				7B7DD1101AF07B6D00516BE9 /* FieldToValidate.m in Sources */,
 				5BB0CC1F1A8E5C7C00F3CE04 /* Database.m in Sources */,
 				5BB0CC401A8E70D300F3CE04 /* Node.m in Sources */,
 				5BB0CC341A8E6BE100F3CE04 /* Routes.m in Sources */,

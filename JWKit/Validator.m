@@ -8,6 +8,9 @@
 
 #import "Validator.h"
 
+#import "FieldToValidate.h"
+#import "StringHelper.h"
+
 @implementation Validator
 
 +(BOOL)validateObject:(id)object {
@@ -94,6 +97,40 @@
 
 +(BOOL)validatePasswordLength:(NSString *)password {
     return ( password.length > 4 );
+}
+
++(ResultValidation)validateFields:(NSArray *)fields {
+    
+    if ( ! fields )
+        return ResultValidationFieldsListNull;
+    
+    if ( fields.count == 0 )
+        return ResultValidationFieldsListEmpty;
+    
+    NSMutableArray *allFieldsValue = [NSMutableArray new];
+    
+    for ( FieldToValidate *field in fields ) {
+        field.value = [StringHelper nilToString:field.value];
+        [allFieldsValue addObject:field.value];
+    }
+    
+    if ( ! [Validator isAllFilledStrings:allFieldsValue] )
+        return ResultValidationAllFieldsRequired;
+    
+    for ( FieldToValidate *field in fields ) {
+        
+        if ( field.type == FieldToValidateTypeEmail )
+            if ( ! [Validator validateEmail:field.value] )
+                return ResultValidationInvalidEmail;
+        
+        if ( field.type == FieldToValidateTypePassword )
+            if ( ! [Validator validatePasswordLength:field.value] )
+                return ResultValidationPasswordHasNoMinimumLengthRequired;
+        
+    }
+    
+    return ResultValidationEverythingOK;
+    
 }
 
 @end
