@@ -79,3 +79,7 @@ The public classes are:
 - Validator
 
   As the name implies, used to validate the integrity of objects, strings and array of objects.
+
+- Circleview
+
+  A circleview to draw at runtime.
