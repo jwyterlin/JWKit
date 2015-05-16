@@ -63,6 +63,8 @@
 		7BA908D41AE732C400990493 /* ButtonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA908D21AE732C400990493 /* ButtonHelper.m */; };
 		7BA908D71AE7341300990493 /* UIViewController+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA908D51AE7341300990493 /* UIViewController+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BA908D81AE7341300990493 /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA908D61AE7341300990493 /* UIViewController+Helper.m */; };
+		7BF9CE341B07E922002FB890 /* UIButton+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF9CE321B07E922002FB890 /* UIButton+Helper.h */; };
+		7BF9CE351B07E922002FB890 /* UIButton+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9CE331B07E922002FB890 /* UIButton+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +140,8 @@
 		7BA908D21AE732C400990493 /* ButtonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonHelper.m; sourceTree = "<group>"; };
 		7BA908D51AE7341300990493 /* UIViewController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Helper.h"; sourceTree = "<group>"; };
 		7BA908D61AE7341300990493 /* UIViewController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Helper.m"; sourceTree = "<group>"; };
+		7BF9CE321B07E922002FB890 /* UIButton+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Helper.h"; sourceTree = "<group>"; };
+		7BF9CE331B07E922002FB890 /* UIButton+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +223,8 @@
 				7B7DD10E1AF07B6D00516BE9 /* FieldToValidate.m */,
 				7B5D69E71AF2EA4D00D0F42A /* CircleView.h */,
 				7B5D69E81AF2EA4D00D0F42A /* CircleView.m */,
+				7BF9CE321B07E922002FB890 /* UIButton+Helper.h */,
+				7BF9CE331B07E922002FB890 /* UIButton+Helper.m */,
 			);
 			path = JWKit;
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 				5BB0CC4E1A8E771000F3CE04 /* Validator.h in Headers */,
 				5BB0CC4F1A8E773300F3CE04 /* Constants.h in Headers */,
 				5BB0CC501A8E773300F3CE04 /* UIDevice-Hardware.h in Headers */,
+				7BF9CE341B07E922002FB890 /* UIButton+Helper.h in Headers */,
 				5BB0CC4A1A8E771000F3CE04 /* Node.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BB0CC251A8E648700F3CE04 /* Constants.m in Sources */,
+				7BF9CE351B07E922002FB890 /* UIButton+Helper.m in Sources */,
 				5BB0CC191A8E5A5500F3CE04 /* ArrayHelper.m in Sources */,
 				5BB0CC221A8E641700F3CE04 /* DateHelper.m in Sources */,
 				5BB0CC371A8E6EA600F3CE04 /* StringHelper.m in Sources */,
