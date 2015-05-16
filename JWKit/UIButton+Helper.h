@@ -17,6 +17,6 @@
 -(void)putBorderColor;
 -(void)putBorderColor:(UIColor *)color;
 -(void)putBorderWidth;
--(void)putBorderWidth:(CGFloat)width
+-(void)putBorderWidth:(CGFloat)width;
 
 @end
