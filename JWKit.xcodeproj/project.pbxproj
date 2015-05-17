@@ -65,6 +65,10 @@
 		7BA908D81AE7341300990493 /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA908D61AE7341300990493 /* UIViewController+Helper.m */; };
 		7BF9CE341B07E922002FB890 /* UIButton+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF9CE321B07E922002FB890 /* UIButton+Helper.h */; };
 		7BF9CE351B07E922002FB890 /* UIButton+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9CE331B07E922002FB890 /* UIButton+Helper.m */; };
+		7BF9CE4D1B0936EE002FB890 /* Indicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF9CE4B1B0936EE002FB890 /* Indicator.h */; };
+		7BF9CE4E1B0936EE002FB890 /* Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9CE4C1B0936EE002FB890 /* Indicator.m */; };
+		7BF9CE511B0937B9002FB890 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF9CE4F1B0937B9002FB890 /* MBProgressHUD.h */; };
+		7BF9CE521B0937B9002FB890 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9CE501B0937B9002FB890 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +146,10 @@
 		7BA908D61AE7341300990493 /* UIViewController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Helper.m"; sourceTree = "<group>"; };
 		7BF9CE321B07E922002FB890 /* UIButton+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Helper.h"; sourceTree = "<group>"; };
 		7BF9CE331B07E922002FB890 /* UIButton+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Helper.m"; sourceTree = "<group>"; };
+		7BF9CE4B1B0936EE002FB890 /* Indicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Indicator.h; sourceTree = "<group>"; };
+		7BF9CE4C1B0936EE002FB890 /* Indicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Indicator.m; sourceTree = "<group>"; };
+		7BF9CE4F1B0937B9002FB890 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7BF9CE501B0937B9002FB890 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +225,8 @@
 				5BB0CC2A1A8E66DD00F3CE04 /* UIDevice-Hardware.m */,
 				7BA908D51AE7341300990493 /* UIViewController+Helper.h */,
 				7BA908D61AE7341300990493 /* UIViewController+Helper.m */,
+				7BF9CE4F1B0937B9002FB890 /* MBProgressHUD.h */,
+				7BF9CE501B0937B9002FB890 /* MBProgressHUD.m */,
 				5BB0CC381A8E702400F3CE04 /* Validator.h */,
 				5BB0CC391A8E702400F3CE04 /* Validator.m */,
 				7B7DD10D1AF07B6D00516BE9 /* FieldToValidate.h */,
@@ -225,6 +235,8 @@
 				7B5D69E81AF2EA4D00D0F42A /* CircleView.m */,
 				7BF9CE321B07E922002FB890 /* UIButton+Helper.h */,
 				7BF9CE331B07E922002FB890 /* UIButton+Helper.m */,
+				7BF9CE4B1B0936EE002FB890 /* Indicator.h */,
+				7BF9CE4C1B0936EE002FB890 /* Indicator.m */,
 			);
 			path = JWKit;
 			sourceTree = "<group>";
@@ -258,8 +270,10 @@
 				7BA908D31AE732C400990493 /* ButtonHelper.h in Headers */,
 				5BB0CC441A8E771000F3CE04 /* CellHelper.h in Headers */,
 				7B5D69E91AF2EA4D00D0F42A /* CircleView.h in Headers */,
+				7BF9CE4D1B0936EE002FB890 /* Indicator.h in Headers */,
 				7B7DD10F1AF07B6D00516BE9 /* FieldToValidate.h in Headers */,
 				5BB0CC451A8E771000F3CE04 /* Database.h in Headers */,
+				7BF9CE511B0937B9002FB890 /* MBProgressHUD.h in Headers */,
 				5BB0CC461A8E771000F3CE04 /* DateHelper.h in Headers */,
 				5BB0CC471A8E771000F3CE04 /* DeviceInfo.h in Headers */,
 				5BB0CC481A8E771000F3CE04 /* JWKit.h in Headers */,
@@ -415,6 +429,8 @@
 				5BB0CC311A8E6B7100F3CE04 /* NSMutableArray+Helper.m in Sources */,
 				5BB0CC281A8E65D700F3CE04 /* DeviceInfo.m in Sources */,
 				7B7DD1101AF07B6D00516BE9 /* FieldToValidate.m in Sources */,
+				7BF9CE4E1B0936EE002FB890 /* Indicator.m in Sources */,
+				7BF9CE521B0937B9002FB890 /* MBProgressHUD.m in Sources */,
 				5BB0CC1F1A8E5C7C00F3CE04 /* Database.m in Sources */,
 				5BB0CC401A8E70D300F3CE04 /* Node.m in Sources */,
 				5BB0CC341A8E6BE100F3CE04 /* Routes.m in Sources */,
