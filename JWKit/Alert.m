@@ -12,17 +12,24 @@
 
 -(UIAlertView *)showAlertMessage:(NSString *)message {
     
-    return [self showAlertMessage:message delegate:nil];
+    return [self showAlertMessage:message delegate:nil tag:0];
     
 }
 
 -(UIAlertView *)showAlertMessage:(NSString *)message delegate:(id)delegate {
+    
+    return [self showAlertMessage:message delegate:delegate tag:0];
+    
+}
+
+-(UIAlertView *)showAlertMessage:(NSString *)message delegate:(id)delegate tag:(NSInteger)tag {
     
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil
                                                     message:message
                                                    delegate:delegate
                                           cancelButtonTitle:@"OK"
                                           otherButtonTitles:nil];
+    alert.tag = tag;
     [alert show];
     
     return alert;

@@ -13,5 +13,6 @@
 
 -(UIAlertView *)showAlertMessage:(NSString *)message;
 -(UIAlertView *)showAlertMessage:(NSString *)message delegate:(id)delegate;
+-(UIAlertView *)showAlertMessage:(NSString *)message delegate:(id)delegate tag:(NSInteger)tag;
 
 @end
