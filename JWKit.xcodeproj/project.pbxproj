@@ -53,6 +53,8 @@
 		5BB0CC4E1A8E771000F3CE04 /* Validator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC381A8E702400F3CE04 /* Validator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB0CC4F1A8E773300F3CE04 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC231A8E648700F3CE04 /* Constants.h */; };
 		5BB0CC501A8E773300F3CE04 /* UIDevice-Hardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC291A8E66DD00F3CE04 /* UIDevice-Hardware.h */; };
+		7B59BC3A1B659C170053B3AA /* UITableView+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B59BC381B659C170053B3AA /* UITableView+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B59BC3B1B659C170053B3AA /* UITableView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BC391B659C170053B3AA /* UITableView+Helper.m */; };
 		7B5D69E91AF2EA4D00D0F42A /* CircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5D69E71AF2EA4D00D0F42A /* CircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B5D69EA1AF2EA4D00D0F42A /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D69E81AF2EA4D00D0F42A /* CircleView.m */; };
 		7B7DD10F1AF07B6D00516BE9 /* FieldToValidate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7DD10D1AF07B6D00516BE9 /* FieldToValidate.h */; };
@@ -134,6 +136,8 @@
 		5BB0CC3C1A8E70D300F3CE04 /* BinarySearchTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearchTree.m; sourceTree = "<group>"; };
 		5BB0CC3D1A8E70D300F3CE04 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		5BB0CC3E1A8E70D300F3CE04 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		7B59BC381B659C170053B3AA /* UITableView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Helper.h"; sourceTree = "<group>"; };
+		7B59BC391B659C170053B3AA /* UITableView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Helper.m"; sourceTree = "<group>"; };
 		7B5D69E71AF2EA4D00D0F42A /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
 		7B5D69E81AF2EA4D00D0F42A /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 		7B7DD10D1AF07B6D00516BE9 /* FieldToValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldToValidate.h; sourceTree = "<group>"; };
@@ -237,6 +241,8 @@
 				7BF9CE331B07E922002FB890 /* UIButton+Helper.m */,
 				7BF9CE4B1B0936EE002FB890 /* Indicator.h */,
 				7BF9CE4C1B0936EE002FB890 /* Indicator.m */,
+				7B59BC381B659C170053B3AA /* UITableView+Helper.h */,
+				7B59BC391B659C170053B3AA /* UITableView+Helper.m */,
 			);
 			path = JWKit;
 			sourceTree = "<group>";
@@ -275,10 +281,11 @@
 				5BB0CC451A8E771000F3CE04 /* Database.h in Headers */,
 				7BF9CE511B0937B9002FB890 /* MBProgressHUD.h in Headers */,
 				5BB0CC461A8E771000F3CE04 /* DateHelper.h in Headers */,
+				5BB0CC4B1A8E771000F3CE04 /* NSMutableArray+Helper.h in Headers */,
 				5BB0CC471A8E771000F3CE04 /* DeviceInfo.h in Headers */,
 				5BB0CC481A8E771000F3CE04 /* JWKit.h in Headers */,
 				5BB0CC491A8E771000F3CE04 /* JWMacros.h in Headers */,
-				5BB0CC4B1A8E771000F3CE04 /* NSMutableArray+Helper.h in Headers */,
+				7B59BC3A1B659C170053B3AA /* UITableView+Helper.h in Headers */,
 				5BB0CC4C1A8E771000F3CE04 /* Routes.h in Headers */,
 				5BB0CC4D1A8E771000F3CE04 /* StringHelper.h in Headers */,
 				7BA908D71AE7341300990493 /* UIViewController+Helper.h in Headers */,
@@ -421,6 +428,7 @@
 				5BB0CC221A8E641700F3CE04 /* DateHelper.m in Sources */,
 				5BB0CC371A8E6EA600F3CE04 /* StringHelper.m in Sources */,
 				7B5D69EA1AF2EA4D00D0F42A /* CircleView.m in Sources */,
+				7B59BC3B1B659C170053B3AA /* UITableView+Helper.m in Sources */,
 				5BB0CC3A1A8E702400F3CE04 /* Validator.m in Sources */,
 				7BA908D81AE7341300990493 /* UIViewController+Helper.m in Sources */,
 				7BA908D41AE732C400990493 /* ButtonHelper.m in Sources */,
