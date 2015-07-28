@@ -55,6 +55,8 @@
 		5BB0CC501A8E773300F3CE04 /* UIDevice-Hardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC291A8E66DD00F3CE04 /* UIDevice-Hardware.h */; };
 		7B59BC3A1B659C170053B3AA /* UITableView+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B59BC381B659C170053B3AA /* UITableView+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B59BC3B1B659C170053B3AA /* UITableView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BC391B659C170053B3AA /* UITableView+Helper.m */; };
+		7B59BC3E1B6710230053B3AA /* NSManagedObject+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B59BC3C1B6710230053B3AA /* NSManagedObject+Helper.h */; };
+		7B59BC3F1B6710230053B3AA /* NSManagedObject+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BC3D1B6710230053B3AA /* NSManagedObject+Helper.m */; };
 		7B5D69E91AF2EA4D00D0F42A /* CircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5D69E71AF2EA4D00D0F42A /* CircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B5D69EA1AF2EA4D00D0F42A /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D69E81AF2EA4D00D0F42A /* CircleView.m */; };
 		7B7DD10F1AF07B6D00516BE9 /* FieldToValidate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7DD10D1AF07B6D00516BE9 /* FieldToValidate.h */; };
@@ -138,6 +140,8 @@
 		5BB0CC3E1A8E70D300F3CE04 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
 		7B59BC381B659C170053B3AA /* UITableView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Helper.h"; sourceTree = "<group>"; };
 		7B59BC391B659C170053B3AA /* UITableView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Helper.m"; sourceTree = "<group>"; };
+		7B59BC3C1B6710230053B3AA /* NSManagedObject+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Helper.h"; sourceTree = "<group>"; };
+		7B59BC3D1B6710230053B3AA /* NSManagedObject+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Helper.m"; sourceTree = "<group>"; };
 		7B5D69E71AF2EA4D00D0F42A /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
 		7B5D69E81AF2EA4D00D0F42A /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 		7B7DD10D1AF07B6D00516BE9 /* FieldToValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldToValidate.h; sourceTree = "<group>"; };
@@ -243,6 +247,8 @@
 				7BF9CE4C1B0936EE002FB890 /* Indicator.m */,
 				7B59BC381B659C170053B3AA /* UITableView+Helper.h */,
 				7B59BC391B659C170053B3AA /* UITableView+Helper.m */,
+				7B59BC3C1B6710230053B3AA /* NSManagedObject+Helper.h */,
+				7B59BC3D1B6710230053B3AA /* NSManagedObject+Helper.m */,
 			);
 			path = JWKit;
 			sourceTree = "<group>";
@@ -285,6 +291,7 @@
 				5BB0CC471A8E771000F3CE04 /* DeviceInfo.h in Headers */,
 				5BB0CC481A8E771000F3CE04 /* JWKit.h in Headers */,
 				5BB0CC491A8E771000F3CE04 /* JWMacros.h in Headers */,
+				7B59BC3E1B6710230053B3AA /* NSManagedObject+Helper.h in Headers */,
 				7B59BC3A1B659C170053B3AA /* UITableView+Helper.h in Headers */,
 				5BB0CC4C1A8E771000F3CE04 /* Routes.h in Headers */,
 				5BB0CC4D1A8E771000F3CE04 /* StringHelper.h in Headers */,
@@ -441,6 +448,7 @@
 				7BF9CE521B0937B9002FB890 /* MBProgressHUD.m in Sources */,
 				5BB0CC1F1A8E5C7C00F3CE04 /* Database.m in Sources */,
 				5BB0CC401A8E70D300F3CE04 /* Node.m in Sources */,
+				7B59BC3F1B6710230053B3AA /* NSManagedObject+Helper.m in Sources */,
 				5BB0CC341A8E6BE100F3CE04 /* Routes.m in Sources */,
 				5BB0CC1C1A8E5AA700F3CE04 /* CellHelper.m in Sources */,
 				5BB0CC3F1A8E70D300F3CE04 /* BinarySearchTree.m in Sources */,
