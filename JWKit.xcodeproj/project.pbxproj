@@ -53,6 +53,8 @@
 		5BB0CC4E1A8E771000F3CE04 /* Validator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC381A8E702400F3CE04 /* Validator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB0CC4F1A8E773300F3CE04 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC231A8E648700F3CE04 /* Constants.h */; };
 		5BB0CC501A8E773300F3CE04 /* UIDevice-Hardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC291A8E66DD00F3CE04 /* UIDevice-Hardware.h */; };
+		7B587DC91B686E3D00191F07 /* UIImage+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B587DC71B686E3D00191F07 /* UIImage+Helper.h */; };
+		7B587DCA1B686E3D00191F07 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B587DC81B686E3D00191F07 /* UIImage+Helper.m */; };
 		7B59BC3A1B659C170053B3AA /* UITableView+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B59BC381B659C170053B3AA /* UITableView+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B59BC3B1B659C170053B3AA /* UITableView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BC391B659C170053B3AA /* UITableView+Helper.m */; };
 		7B59BC3E1B6710230053B3AA /* NSManagedObject+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B59BC3C1B6710230053B3AA /* NSManagedObject+Helper.h */; };
@@ -138,6 +140,8 @@
 		5BB0CC3C1A8E70D300F3CE04 /* BinarySearchTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearchTree.m; sourceTree = "<group>"; };
 		5BB0CC3D1A8E70D300F3CE04 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		5BB0CC3E1A8E70D300F3CE04 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		7B587DC71B686E3D00191F07 /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		7B587DC81B686E3D00191F07 /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
 		7B59BC381B659C170053B3AA /* UITableView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Helper.h"; sourceTree = "<group>"; };
 		7B59BC391B659C170053B3AA /* UITableView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Helper.m"; sourceTree = "<group>"; };
 		7B59BC3C1B6710230053B3AA /* NSManagedObject+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Helper.h"; sourceTree = "<group>"; };
@@ -210,6 +214,8 @@
 				7BA908D21AE732C400990493 /* ButtonHelper.m */,
 				5BB0CC1A1A8E5AA700F3CE04 /* CellHelper.h */,
 				5BB0CC1B1A8E5AA700F3CE04 /* CellHelper.m */,
+				7B5D69E71AF2EA4D00D0F42A /* CircleView.h */,
+				7B5D69E81AF2EA4D00D0F42A /* CircleView.m */,
 				5BB0CC231A8E648700F3CE04 /* Constants.h */,
 				5BB0CC241A8E648700F3CE04 /* Constants.m */,
 				5BB0CC1D1A8E5C7C00F3CE04 /* Database.h */,
@@ -218,37 +224,37 @@
 				5BB0CC211A8E641700F3CE04 /* DateHelper.m */,
 				5BB0CC261A8E65D700F3CE04 /* DeviceInfo.h */,
 				5BB0CC271A8E65D700F3CE04 /* DeviceInfo.m */,
+				7B7DD10D1AF07B6D00516BE9 /* FieldToValidate.h */,
+				7B7DD10E1AF07B6D00516BE9 /* FieldToValidate.m */,
+				7BF9CE4B1B0936EE002FB890 /* Indicator.h */,
+				7BF9CE4C1B0936EE002FB890 /* Indicator.m */,
 				5BB0CC001A8E584800F3CE04 /* JWKit.h */,
 				5BB0CC2C1A8E6A3D00F3CE04 /* JWMacros.h */,
 				5BB0CC2D1A8E6A3D00F3CE04 /* JWMacros.m */,
+				7BF9CE4F1B0937B9002FB890 /* MBProgressHUD.h */,
+				7BF9CE501B0937B9002FB890 /* MBProgressHUD.m */,
 				5BB0CC3D1A8E70D300F3CE04 /* Node.h */,
 				5BB0CC3E1A8E70D300F3CE04 /* Node.m */,
+				7B59BC3C1B6710230053B3AA /* NSManagedObject+Helper.h */,
+				7B59BC3D1B6710230053B3AA /* NSManagedObject+Helper.m */,
 				5BB0CC2F1A8E6B7100F3CE04 /* NSMutableArray+Helper.h */,
 				5BB0CC301A8E6B7100F3CE04 /* NSMutableArray+Helper.m */,
 				5BB0CC321A8E6BE100F3CE04 /* Routes.h */,
 				5BB0CC331A8E6BE100F3CE04 /* Routes.m */,
 				5BB0CC351A8E6EA600F3CE04 /* StringHelper.h */,
 				5BB0CC361A8E6EA600F3CE04 /* StringHelper.m */,
-				5BB0CC291A8E66DD00F3CE04 /* UIDevice-Hardware.h */,
-				5BB0CC2A1A8E66DD00F3CE04 /* UIDevice-Hardware.m */,
-				7BA908D51AE7341300990493 /* UIViewController+Helper.h */,
-				7BA908D61AE7341300990493 /* UIViewController+Helper.m */,
-				7BF9CE4F1B0937B9002FB890 /* MBProgressHUD.h */,
-				7BF9CE501B0937B9002FB890 /* MBProgressHUD.m */,
-				5BB0CC381A8E702400F3CE04 /* Validator.h */,
-				5BB0CC391A8E702400F3CE04 /* Validator.m */,
-				7B7DD10D1AF07B6D00516BE9 /* FieldToValidate.h */,
-				7B7DD10E1AF07B6D00516BE9 /* FieldToValidate.m */,
-				7B5D69E71AF2EA4D00D0F42A /* CircleView.h */,
-				7B5D69E81AF2EA4D00D0F42A /* CircleView.m */,
 				7BF9CE321B07E922002FB890 /* UIButton+Helper.h */,
 				7BF9CE331B07E922002FB890 /* UIButton+Helper.m */,
-				7BF9CE4B1B0936EE002FB890 /* Indicator.h */,
-				7BF9CE4C1B0936EE002FB890 /* Indicator.m */,
+				5BB0CC291A8E66DD00F3CE04 /* UIDevice-Hardware.h */,
+				5BB0CC2A1A8E66DD00F3CE04 /* UIDevice-Hardware.m */,
 				7B59BC381B659C170053B3AA /* UITableView+Helper.h */,
 				7B59BC391B659C170053B3AA /* UITableView+Helper.m */,
-				7B59BC3C1B6710230053B3AA /* NSManagedObject+Helper.h */,
-				7B59BC3D1B6710230053B3AA /* NSManagedObject+Helper.m */,
+				7BA908D51AE7341300990493 /* UIViewController+Helper.h */,
+				7BA908D61AE7341300990493 /* UIViewController+Helper.m */,
+				5BB0CC381A8E702400F3CE04 /* Validator.h */,
+				5BB0CC391A8E702400F3CE04 /* Validator.m */,
+				7B587DC71B686E3D00191F07 /* UIImage+Helper.h */,
+				7B587DC81B686E3D00191F07 /* UIImage+Helper.m */,
 			);
 			path = JWKit;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B587DC91B686E3D00191F07 /* UIImage+Helper.h in Headers */,
 				7BA908CF1AE7319000990493 /* Alert.h in Headers */,
 				5BB0CC421A8E771000F3CE04 /* ArrayHelper.h in Headers */,
 				5BB0CC431A8E771000F3CE04 /* BinarySearchTree.h in Headers */,
@@ -447,6 +454,7 @@
 				7BF9CE4E1B0936EE002FB890 /* Indicator.m in Sources */,
 				7BF9CE521B0937B9002FB890 /* MBProgressHUD.m in Sources */,
 				5BB0CC1F1A8E5C7C00F3CE04 /* Database.m in Sources */,
+				7B587DCA1B686E3D00191F07 /* UIImage+Helper.m in Sources */,
 				5BB0CC401A8E70D300F3CE04 /* Node.m in Sources */,
 				7B59BC3F1B6710230053B3AA /* NSManagedObject+Helper.m in Sources */,
 				5BB0CC341A8E6BE100F3CE04 /* Routes.m in Sources */,
