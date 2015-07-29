@@ -51,13 +51,13 @@
 		5BB0CC4C1A8E771000F3CE04 /* Routes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC321A8E6BE100F3CE04 /* Routes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB0CC4D1A8E771000F3CE04 /* StringHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC351A8E6EA600F3CE04 /* StringHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB0CC4E1A8E771000F3CE04 /* Validator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC381A8E702400F3CE04 /* Validator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BB0CC4F1A8E773300F3CE04 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC231A8E648700F3CE04 /* Constants.h */; };
+		5BB0CC4F1A8E773300F3CE04 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC231A8E648700F3CE04 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB0CC501A8E773300F3CE04 /* UIDevice-Hardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB0CC291A8E66DD00F3CE04 /* UIDevice-Hardware.h */; };
-		7B587DC91B686E3D00191F07 /* UIImage+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B587DC71B686E3D00191F07 /* UIImage+Helper.h */; };
+		7B587DC91B686E3D00191F07 /* UIImage+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B587DC71B686E3D00191F07 /* UIImage+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B587DCA1B686E3D00191F07 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B587DC81B686E3D00191F07 /* UIImage+Helper.m */; };
 		7B59BC3A1B659C170053B3AA /* UITableView+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B59BC381B659C170053B3AA /* UITableView+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B59BC3B1B659C170053B3AA /* UITableView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BC391B659C170053B3AA /* UITableView+Helper.m */; };
-		7B59BC3E1B6710230053B3AA /* NSManagedObject+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B59BC3C1B6710230053B3AA /* NSManagedObject+Helper.h */; };
+		7B59BC3E1B6710230053B3AA /* NSManagedObject+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B59BC3C1B6710230053B3AA /* NSManagedObject+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B59BC3F1B6710230053B3AA /* NSManagedObject+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BC3D1B6710230053B3AA /* NSManagedObject+Helper.m */; };
 		7B5D69E91AF2EA4D00D0F42A /* CircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5D69E71AF2EA4D00D0F42A /* CircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B5D69EA1AF2EA4D00D0F42A /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D69E81AF2EA4D00D0F42A /* CircleView.m */; };
@@ -69,9 +69,9 @@
 		7BA908D41AE732C400990493 /* ButtonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA908D21AE732C400990493 /* ButtonHelper.m */; };
 		7BA908D71AE7341300990493 /* UIViewController+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA908D51AE7341300990493 /* UIViewController+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BA908D81AE7341300990493 /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA908D61AE7341300990493 /* UIViewController+Helper.m */; };
-		7BF9CE341B07E922002FB890 /* UIButton+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF9CE321B07E922002FB890 /* UIButton+Helper.h */; };
+		7BF9CE341B07E922002FB890 /* UIButton+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF9CE321B07E922002FB890 /* UIButton+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BF9CE351B07E922002FB890 /* UIButton+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9CE331B07E922002FB890 /* UIButton+Helper.m */; };
-		7BF9CE4D1B0936EE002FB890 /* Indicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF9CE4B1B0936EE002FB890 /* Indicator.h */; };
+		7BF9CE4D1B0936EE002FB890 /* Indicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF9CE4B1B0936EE002FB890 /* Indicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BF9CE4E1B0936EE002FB890 /* Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9CE4C1B0936EE002FB890 /* Indicator.m */; };
 		7BF9CE511B0937B9002FB890 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF9CE4F1B0937B9002FB890 /* MBProgressHUD.h */; };
 		7BF9CE521B0937B9002FB890 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9CE501B0937B9002FB890 /* MBProgressHUD.m */; };
@@ -282,31 +282,31 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B587DC91B686E3D00191F07 /* UIImage+Helper.h in Headers */,
 				7BA908CF1AE7319000990493 /* Alert.h in Headers */,
 				5BB0CC421A8E771000F3CE04 /* ArrayHelper.h in Headers */,
 				5BB0CC431A8E771000F3CE04 /* BinarySearchTree.h in Headers */,
 				7BA908D31AE732C400990493 /* ButtonHelper.h in Headers */,
 				5BB0CC441A8E771000F3CE04 /* CellHelper.h in Headers */,
 				7B5D69E91AF2EA4D00D0F42A /* CircleView.h in Headers */,
-				7BF9CE4D1B0936EE002FB890 /* Indicator.h in Headers */,
 				7B7DD10F1AF07B6D00516BE9 /* FieldToValidate.h in Headers */,
 				5BB0CC451A8E771000F3CE04 /* Database.h in Headers */,
 				7BF9CE511B0937B9002FB890 /* MBProgressHUD.h in Headers */,
 				5BB0CC461A8E771000F3CE04 /* DateHelper.h in Headers */,
 				5BB0CC4B1A8E771000F3CE04 /* NSMutableArray+Helper.h in Headers */,
 				5BB0CC471A8E771000F3CE04 /* DeviceInfo.h in Headers */,
+				7B587DC91B686E3D00191F07 /* UIImage+Helper.h in Headers */,
 				5BB0CC481A8E771000F3CE04 /* JWKit.h in Headers */,
 				5BB0CC491A8E771000F3CE04 /* JWMacros.h in Headers */,
-				7B59BC3E1B6710230053B3AA /* NSManagedObject+Helper.h in Headers */,
+				7BF9CE341B07E922002FB890 /* UIButton+Helper.h in Headers */,
+				7BF9CE4D1B0936EE002FB890 /* Indicator.h in Headers */,
 				7B59BC3A1B659C170053B3AA /* UITableView+Helper.h in Headers */,
+				5BB0CC4F1A8E773300F3CE04 /* Constants.h in Headers */,
+				7B59BC3E1B6710230053B3AA /* NSManagedObject+Helper.h in Headers */,
 				5BB0CC4C1A8E771000F3CE04 /* Routes.h in Headers */,
 				5BB0CC4D1A8E771000F3CE04 /* StringHelper.h in Headers */,
 				7BA908D71AE7341300990493 /* UIViewController+Helper.h in Headers */,
 				5BB0CC4E1A8E771000F3CE04 /* Validator.h in Headers */,
-				5BB0CC4F1A8E773300F3CE04 /* Constants.h in Headers */,
 				5BB0CC501A8E773300F3CE04 /* UIDevice-Hardware.h in Headers */,
-				7BF9CE341B07E922002FB890 /* UIButton+Helper.h in Headers */,
 				5BB0CC4A1A8E771000F3CE04 /* Node.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
