@@ -16,8 +16,18 @@
 -(void)showIndicatorWithLabel:(NSString *)label
                viewController:(UIViewController *)viewController;
 
+-(void)showIndicatorWithLabel:(NSString *)label
+                     delegate:(id)delegate
+                         view:(UIView *)view;
+
 -(void)showIndicatorDialogWithMessage:(NSString *)message
                        viewController:(UIViewController *)viewController;
+
+-(void)showIndicatorDialogWithMessage:(NSString *)message
+                             delegate:(id)delegate
+                                 view:(UIView *)view;
+
+-(void)stopIndicatorInView:(UIView *)view;
 
 -(void)stopIndicatorInViewController:(UIViewController *)viewController;
 

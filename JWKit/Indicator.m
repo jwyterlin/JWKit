@@ -30,15 +30,19 @@
     
 }
 
--(void)showIndicatorWithLabel:(NSString *)label viewController:(UIViewController *)viewController {
+-(void)showIndicatorWithLabel:(NSString *)label viewController:(UIViewController *)viewController  {
+    [self showIndicatorWithLabel:label delegate:viewController view:viewController.view];
+}
+
+-(void)showIndicatorWithLabel:(NSString *)label delegate:(id)delegate view:(UIView *)view {
     
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
     
-    HUD = [MBProgressHUD showHUDAddedTo:viewController.view animated:YES];
+    HUD = [MBProgressHUD showHUDAddedTo:view animated:YES];
     
-    [viewController.class conformsToProtocol:@protocol(MBProgressHUDDelegate)];
+    [[delegate class] conformsToProtocol:@protocol(MBProgressHUDDelegate)];
     
-    HUD.delegate = viewController;
+    HUD.delegate = delegate;
     
     if ( ! [Validator isEmptyString:label] )
         HUD.labelText = label;
@@ -46,16 +50,20 @@
 }
 
 -(void)showIndicatorDialogWithMessage:(NSString *)message viewController:(UIViewController *)viewController {
+    [self showIndicatorDialogWithMessage:message delegate:viewController view:viewController.view];
+}
+
+-(void)showIndicatorDialogWithMessage:(NSString *)message delegate:(id)delegate view:(UIView *)view {
     
-    HUD = [MBProgressHUD showHUDAddedTo:viewController.view animated:YES];
+    HUD = [MBProgressHUD showHUDAddedTo:view animated:YES];
     HUD.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"37x-Checkmark.png"]];
     
     // Set custom view mode
     HUD.mode = MBProgressHUDModeCustomView;
     
-    [viewController.class conformsToProtocol:@protocol(MBProgressHUDDelegate)];
+    [[delegate class] conformsToProtocol:@protocol(MBProgressHUDDelegate)];
     
-    HUD.delegate = viewController;
+    HUD.delegate = delegate;
     HUD.labelText = message;
     
     [HUD show:YES];
@@ -63,9 +71,20 @@
     
 }
 
+-(void)stopIndicatorInView:(UIView *)view {
+    view.userInteractionEnabled = YES;
+    [self stopIndicator];
+}
+
 -(void)stopIndicatorInViewController:(UIViewController *)viewController {
     
     viewController.navigationController.toolbar.userInteractionEnabled = YES;
+    
+    [self stopIndicator];
+    
+}
+
+-(void)stopIndicator {
     
     [HUD hide:YES];
     
