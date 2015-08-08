@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+#import <JWKit/Alert.h>
 #import <JWKit/ArrayHelper.h>
 #import <JWKit/BinarySearchTree.h>
 #import <JWKit/CellHelper.h>
