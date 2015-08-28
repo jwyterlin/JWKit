@@ -82,4 +82,4 @@ The public classes are:
 
 - Circleview
 
-  A circleview to draw at runtime..
+  A circleview to draw at runtime.
